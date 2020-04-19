@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1587309445743" clover="3.2.0">
-  <project timestamp="1587309445743" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7" elements="24" coveredelements="24" complexity="0" loc="11" ncloc="11" packages="2" files="4" classes="4">
+<coverage generated="1587315722733" clover="3.2.0">
+  <project timestamp="1587315722733" name="All files">
+    <metrics statements="23" coveredstatements="23" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9" elements="42" coveredelements="42" complexity="0" loc="23" ncloc="23" packages="3" files="6" classes="6">
       <package name="jest-in-practice">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <file name="div.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/div.js">
@@ -11,6 +11,27 @@
         <file name="sum.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/sum.js">
           <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="2" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="jest-in-practice.src.filter">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <file name="filter-recursive.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/src/filter/filter-recursive.js">
+          <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+          <line num="6" count="5" type="stmt"/>
+          <line num="7" count="19" type="cond" truecount="2" falsecount="0"/>
+          <line num="8" count="13" type="stmt"/>
+          <line num="11" count="5" type="stmt"/>
+        </file>
+        <file name="filter.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/src/filter/filter.js">
+          <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+          <line num="6" count="5" type="stmt"/>
+          <line num="7" count="19" type="cond" truecount="2" falsecount="0"/>
+          <line num="8" count="13" type="stmt"/>
+          <line num="11" count="5" type="stmt"/>
         </file>
       </package>
       <package name="jest-in-practice.src.map">
