@@ -1,14 +1,14 @@
 'use strict'
 
 const every = (arr, func) => {
-    return(function everyInternal(arrayInternal, counter){
+    return (function everyInternal(arrayInternal, counter) {
         const [head, ...tail] = arrayInternal
 
         return arrayInternal.length === 0
-            ? true 
+            ? true
             : !func(head, counter, arr)
-                ? false 
-                : everyInternal(tail, counter + 1) 
+                ? false
+                : everyInternal(tail, counter + 1)
     })(arr, 0)
 }
 
