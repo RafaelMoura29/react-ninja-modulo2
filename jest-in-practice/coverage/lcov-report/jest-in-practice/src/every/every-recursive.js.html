@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for jest-in-practice/src/filter/filter.js</title>
+    <title>Code coverage report for jest-in-practice/src/every/every-recursive.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../../prettify.css" />
     <link rel="stylesheet" href="../../../base.css" />
@@ -16,7 +16,7 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="../../../index.html">All files</a> / <a href="index.html">jest-in-practice/src/filter</a> filter.js
+      <a href="../../../index.html">All files</a> / <a href="index.html">jest-in-practice/src/every</a> every-recursive.js
     </h1>
     <div class='clearfix'>
     </div>
@@ -29,40 +29,19 @@
 4
 5
 6
-7
-8
-9
-10
-11
-12
-13
-14</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+7</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">13x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">'use strict'
 &nbsp;
-const filter = (arr, func) =&gt; {
-    let newArr = []
-&nbsp;
-    for (let i = 0; i &lt; arr.length; i++) {
-        if(func(arr[i], i, arr)){
-            newArr.push(arr[i])
-        }
-    }
-    return newArr
+const every = (arr, func) =&gt; {
+    
 }
 &nbsp;
-export default filter</pre></td></tr>
+export default every</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
 </div><!-- /wrapper -->
