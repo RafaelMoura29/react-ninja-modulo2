@@ -7,6 +7,6 @@ const map = (arr = [], func = (item) => item) => {
     newArr.push(func(arr[i], i, arr))
 
   return newArr
-}
+} 
 
 export default map

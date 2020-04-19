@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1587260946407" clover="3.2.0">
-  <project timestamp="1587260946407" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="4" coveredelements="4" complexity="0" loc="2" ncloc="2" packages="1" files="2" classes="2">
-      <file name="div.js" path="C:\Users\usuario\dev\react-ninja-modulo2\jest-in-practice\div.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-      </file>
-      <file name="sum.js" path="C:\Users\usuario\dev\react-ninja-modulo2\jest-in-practice\sum.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-      </file>
+<coverage generated="1587309445743" clover="3.2.0">
+  <project timestamp="1587309445743" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7" elements="24" coveredelements="24" complexity="0" loc="11" ncloc="11" packages="2" files="4" classes="4">
+      <package name="jest-in-practice">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="div.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/div.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+        </file>
+        <file name="sum.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/sum.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="jest-in-practice.src.map">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <file name="map-recursive.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/src/map/map-recursive.js">
+          <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+          <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="8" type="stmt"/>
+          <line num="5" count="22" type="stmt"/>
+          <line num="7" count="22" type="cond" truecount="2" falsecount="0"/>
+        </file>
+        <file name="map.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/src/map/map.js">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="8" type="stmt"/>
+          <line num="6" count="8" type="stmt"/>
+          <line num="7" count="14" type="stmt"/>
+          <line num="9" count="8" type="stmt"/>
+        </file>
+      </package>
     </metrics>
   </project>
 </coverage>
