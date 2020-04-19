@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for jest-in-practice/src/map/map.js</title>
+    <title>Code coverage report for jest-in-practice/src/reduce/reduce-right.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../../prettify.css" />
     <link rel="stylesheet" href="../../../base.css" />
@@ -16,7 +16,7 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="../../../index.html">All files</a> / <a href="index.html">jest-in-practice/src/map</a> map.js
+      <a href="../../../index.html">All files</a> / <a href="index.html">jest-in-practice/src/reduce</a> reduce-right.js
     </h1>
     <div class='clearfix'>
     </div>
@@ -30,33 +30,21 @@
 5
 6
 7
-8
-9
-10
-11
-12</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+8</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">14x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">'use strict'
 &nbsp;
-const map = (arr = [], func = (item) =&gt; item) =&gt; {
-  let newArr = []
+import mainReduce from './main-reduce'
+import reverse from '../reverse/reverse-recursive'
 &nbsp;
-  for (let i = 0; i &lt; arr.length; i++)
-    newArr.push(func(arr[i], i, arr))
+const reduceRight = (arr, ...params) =&gt; mainReduce(reverse(arr), ...params)
 &nbsp;
-  return newArr
-} 
-&nbsp;
-export default map</pre></td></tr>
+export default reduceRight</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
 </div><!-- /wrapper -->
