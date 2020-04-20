@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for find.js</title>
+    <title>Code coverage report for find-recursive.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -16,7 +16,7 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="index.html">All files</a> find.js
+      <a href="index.html">All files</a> find-recursive.js
     </h1>
     <div class='clearfix'>
     </div>
@@ -34,12 +34,20 @@
 9
 10
 11
-12</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+12
+13
+14
+15
+16</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -48,13 +56,17 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">'use strict'
 &nbsp;
 const find = (arr, func) =&gt; {
-    for(let i = 0; arr.length &gt; i; i++){
-        if(func(arr[i], i, arr)){
-            return arr[i]
-        }
-    }
+    return (function findInternal(arrInternal, counter) {
+        const [head, ...tail] = arrInternal
+&nbsp;
+        return arrInternal.length === 0
+            ? undefined
+            : func(head, counter, arr)
+                ? head
+                :findInternal(tail, counter + 1)
+    })(arr, 0)
 }
-    
+&nbsp;
 export default find
 &nbsp;</pre></td></tr>
 </table></pre>

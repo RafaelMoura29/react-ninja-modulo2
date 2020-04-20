@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1587343825109" clover="3.2.0">
-  <project timestamp="1587343825110" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1">
+<coverage generated="1587344205577" clover="3.2.0">
+  <project timestamp="1587344205577" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="17" coveredelements="17" complexity="0" loc="8" ncloc="8" packages="1" files="2" classes="2">
+      <file name="find-recursive.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/src/find/find-recursive.js">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="7" count="9" type="cond" truecount="2" falsecount="0"/>
+      </file>
       <file name="find.js" path="/home/rafael/dev/react-ninja-modulo2/jest-in-practice/src/find/find.js">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
